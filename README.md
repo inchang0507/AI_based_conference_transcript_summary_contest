@@ -36,9 +36,7 @@ AI 기반 회의 녹취록 요약 경진대회
 ### 3-1 모델 세부 조정
 - KoBART 모델 층 구조         
 -- encoding part : 2 ~ 97 / Layer norm 98 ~ 99         
-
--- decoding part : Embedding, PE 100 ~ 101 / Decoding 층 102 ~ 257 / Layer norm 258~259         
-         
+-- decoding part : Embedding, PE 100 ~ 101 / Decoding 층 102 ~ 257 / Layer norm 258~259                
 -- 총 개수 259 개
          
 - 주어진 학습 데이터가 상대적으로 적기 때문에 인코딩 층, 디코딩 층 각각의 최하단 부분과 출력층까지 가중치 업데이트 진행         
